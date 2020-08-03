@@ -1,0 +1,24 @@
+{
+  "name": "SW",
+  "version": "1.0",
+  "description": "Chrome extension to scrape sports betting info",
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "/assets/js/app.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "/assets/page/index.html",
+    "default_icon": {
+      "128": "/assets/images/logo.png"
+    }
+  },
+  "icons": {
+    "128": "/assets/images/logo.png"
+  }
+}
