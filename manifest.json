@@ -8,12 +8,11 @@
   ],
   "background": {
     "scripts": [
-      "/assets/js/app.js"
-    ],
-    "persistent": false
+      "app.js"
+    ]
   },
   "page_action": {
-    "default_popup": "/assets/page/index.html",
+    "default_popup": "/assets/pages/index.html",
     "default_icon": {
       "128": "/assets/images/logo.png"
     }
